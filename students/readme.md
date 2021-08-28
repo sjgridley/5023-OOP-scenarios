@@ -51,7 +51,7 @@ As a hint, I have provided some example code below.
 
 An example of creating a Student object for one of the students (Michael), which would replace creating a dictionary is shown below.
 
-    student = grades.Student (
+    michael = grades.Student (
         name = 'Michael',
         english_mark = 80,
         science_mark = 70,

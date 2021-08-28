@@ -1,3 +1,5 @@
+import grades
+
 students = []
 
 # Creates a dictionary for a student named Michael
