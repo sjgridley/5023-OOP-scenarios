@@ -8,7 +8,7 @@ In this activity you will modify some existing code to use objects.
 Before starting to modify the activity, I recommend reading this document, reading through the code in main.py and running the code to see what happens when it runs.
 There are four main steps for this activity:
 
-1. Define a Student class in the grades.py 
+1. Define a Student class in the grades.py file
 2. Modify the main.py file so that Student objects are created, rather than dictionaries
 3. Add an average_mark method to the Student class (see the next sections for more details) and tests this gets the correct result when the program runs 
 4. Push your changes to your forked repository on GitHub and share a link to this in the Canvas discussions
