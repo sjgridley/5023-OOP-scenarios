@@ -34,7 +34,7 @@ Your first task is to define a `Rectangle` class in the *shapes.py* file, which 
 
 The `Rectangle` class should have the following *attributes*: `length` and `width`, which should be `floats`.
 
-Once you have defined the class, you should replace the code that creates dictionaries for rectangles to to create `Rectangle` objects instead.
+Once you have defined the class, you should replace the code that creates dictionaries for rectangles to create `Rectangle` objects instead.
 Note that the `Rectangle` class should have an `__init__` method that takes the `length` and `width` as arguments.
 The `shapes` module has already been imported in the *main.py* file, so you should be able to create `Rectangle` objects with `shapes.Rectangle`.
 
