@@ -3,6 +3,7 @@ import grades
 students = []
 
 # Creates a dictionary for a student named Michael
+# TODO: Change this code to create a Student object, rather than dictionary
 michael = {}
 michael['name'] = 'Michael'
 michael['english_mark'] = 80
@@ -13,6 +14,7 @@ michael['completed_assessments'] = True
 students.append(michael)
 
 # Creates a dictionary for a student named Angela
+# TODO: Change this code to create a Student object, rather than dictionary
 angela = {}
 angela['name'] = 'Angela'
 angela['english_mark'] = 60
@@ -23,6 +25,7 @@ angela['completed_assessments'] = True
 students.append(angela)
 
 # Creates a dictionary for a student named Natalie
+# TODO: Change this code to create a Student object, rather than dictionary
 natalie = {}
 natalie['name'] = 'Natalie'
 natalie['english_mark'] = 60
@@ -34,6 +37,7 @@ students.append(natalie)
 
 # Print the names and marks for each of the students
 print('\nStudents:\n')
+# TODO: Change code in loop to access Student objects' attributes, rather than dictionary
 for student in students:
     print('---')
     print(f"Name: { student['name' ]}")
