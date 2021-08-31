@@ -37,9 +37,9 @@ In the program, the following shapes are created as dictionaries and drawn with 
 Your first task is to define a `Shape` class in the *drawing.py* file, which you will be able to import in your *main.py* file for creating `Shape` objects.
 
 The `Shape` class should have the following attributes:
-- `colour` - String type
+- `colour` - of `str` type
 - `points` - a list of `Point` objects
-- `my_turtle` - a Turtle object
+- `my_turtle` - a `turtle.Turtle` object
 
 The `Point` class should have the following *attributes*: `x` and `y`, which should both be `floats`.
 
@@ -51,7 +51,7 @@ Once you have defined these classes, you should replace the code in the *main.py
 
 The `drawing` module has already been imported in the *main.py* file, so you should be able to create `Shape` objects with `drawing.Shape` and `Point` objects with `drawing.Point`.
 
-Once you replaced the code that creates dictionaries for shapes and points and the program runs successfully, you can move onto the next step.
+Once you have replaced the code that creates dictionaries for shapes and points, and the program runs successfully, you can move onto the next step.
 
 ### Adding the draw method to the Shape class
 
