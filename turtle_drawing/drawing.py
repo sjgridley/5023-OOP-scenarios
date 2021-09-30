@@ -20,7 +20,7 @@ class Shape:
             self.my_turtle.goto(point.x, point.y)
     
     # Moves to first point, to close the shape
-        self.my_turtle.goto(points[0].x, point[0].y)
+        self.my_turtle.goto(points[0].x, points[0].y)
         self.my_turtle.end_fill()
 
 class Point:
